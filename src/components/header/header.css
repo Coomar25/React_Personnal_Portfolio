@@ -1,0 +1,136 @@
+header{
+    height: 100vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+
+/* ============= CTA ================= */
+
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+/* ============= HeaderSocial ================= */
+
+.header__socials{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    font-size: 2rem;
+    /* position: fixed; */
+}
+
+/* ============= me ================= */
+
+.me{
+    background: linear-gradient( var(--color-primary), transparent );
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);  
+    /* OR left: 50%;
+    transform: translateX(-50%); */
+    margin-top: 10px;
+    /* bad practise border-top-right-radius: 40%;
+    border-top-left-radius: 40%; */
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: -1rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/* ============= me ================= */
+.scroll__down{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    transform: rotate(-90deg);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Nuninto';
+    letter-spacing: 1px;
+}
+
+
+/* ==============Media query for medium devices ===========   */
+
+@media screen and (max-width:1024px) {
+
+    header{
+        height: 100vh;
+    }
+    .header__socials{
+        
+        top: 38%;
+    }
+
+    .scroll__down{
+        top: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+ 
+
+    header{
+        height:100vh;
+        padding-top: 4rem;
+       
+    }
+    
+    .header__socials{
+        top:0%;
+        font-size: 1.5rem;
+    }
+
+    .scroll__down{
+     display: none;
+    }
+
+    .me{
+        margin-top: 1rem;
+        padding-top: -1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+   
+    
+
+    header{
+        height:100vh;
+        padding-top: 0rem;
+    }
+    
+    .header__socials{
+        top:0%;
+        font-size: 1.5rem;
+    }
+
+    .scroll__down{
+     display: none;
+    }
+
+    .me{
+        margin-top: 1rem;
+        padding-top: 0px;
+    }
+}

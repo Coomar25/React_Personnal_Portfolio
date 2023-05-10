@@ -1,0 +1,40 @@
+.container.testimonials__container{
+    width:50%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem; */
+}
+
+.client__avatar{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto 2rem ;
+    border: 0.4rem solid var(--color-primary-varient);
+
+}
+
+
+.testimonials{
+    background: var(--color-bg-varient);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 0rem;
+}
+
+.client_review{
+    color: burlywood;
+    font-weight: 400;
+    display: block;
+    margin: 0.8rem auto 0 ;
+   
+}
+
+@media screen and (max-width:600px){
+
+    .container.testimonials__container{
+        width:95%;
+    }
+}
