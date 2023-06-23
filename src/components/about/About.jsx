@@ -33,13 +33,14 @@ const About = () => {
                         <article className="about_card">
                             <FaUserInjured className='about_icon' />
                             <h5>Field</h5>
-                            <small>Web Developer</small>
+                            <small>Software Engineer</small>
                         </article>
 
                         <article className="about_card">
                             <GoProject className='about_icon' />
-                            <h5>College Projects</h5>
-                            <small>Multiple projects done</small>
+                            <h5> Projects</h5>
+                            <small>
+                                <a href="https://github.com/Coomar25"> Visit GitHub</a></small>
                         </article>
                     </div>
                     <h1>An Illusion</h1>

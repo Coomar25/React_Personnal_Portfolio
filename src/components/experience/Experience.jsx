@@ -58,13 +58,20 @@ const Experience = () => {
                                 <small className='text-light'>Experience</small>
                             </div>
                         </article>
+                        <article className="expereience__details">
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Material UI</h4>
+                                <small className='text-light'>Experience</small>
+                            </div>
+                        </article>
 
                     </div>
 
                 </div>
 
                 <div className="experience__backend">
-                    <h3>Frontend Development</h3>
+                    <h3>Backend Development</h3>
                     <div className="experience__content">
                         <article className="expereience__details">
                             <BsFillPatchCheckFill />
@@ -109,6 +116,20 @@ const Experience = () => {
                             <BsFillPatchCheckFill />
                             <div>
                                 <h4>Laravel API Server</h4>
+                                <small className='text-light'>Experience</small>
+                            </div>
+                        </article>
+                        <article className="expereience__details">
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Postman</h4>
+                                <small className='text-light'>Experience</small>
+                            </div>
+                        </article>
+                        <article className="expereience__details">
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Node Js</h4>
                                 <small className='text-light'>Experience</small>
                             </div>
                         </article>
