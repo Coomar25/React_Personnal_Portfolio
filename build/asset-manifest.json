@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c10ac7e1.css",
+    "main.js": "/static/js/main.5e24757e.js",
+    "static/media/cooMe.png": "/static/media/cooMe.540fe9362ccaf04e0c7b.png",
+    "static/media/avatar1.jpg": "/static/media/avatar1.5eea157582ff50b4e3a7.jpg",
+    "static/media/cooMe-about.jpg": "/static/media/cooMe-about.b2493cbfe56f2b45bb5e.jpg",
+    "static/media/KumarChaudhary-CV.pdf": "/static/media/KumarChaudhary-CV.3e67dd57ed025e1a09c5.pdf",
+    "static/media/grungoverlay.png": "/static/media/grungoverlay.cd3942d5fde60298bc6e.png",
+    "static/media/avatar2.jpg": "/static/media/avatar2.3f6315b099939d13f4d9.jpg",
+    "index.html": "/index.html",
+    "main.c10ac7e1.css.map": "/static/css/main.c10ac7e1.css.map",
+    "main.5e24757e.js.map": "/static/js/main.5e24757e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c10ac7e1.css",
+    "static/js/main.5e24757e.js"
+  ]
+}
