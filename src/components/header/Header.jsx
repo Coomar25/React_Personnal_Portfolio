@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="me">
                     <img src={cooMe} alt="i'm coomar" />
                 </div>
-                <Link to='/contact'><a className='scroll__down'>Get In Touch With Me</a></Link>
+                <Link to='/contact'><a href='/contact' className='scroll__down'>Get In Touch With Me</a></Link>
             </div>
 
             <Nav />

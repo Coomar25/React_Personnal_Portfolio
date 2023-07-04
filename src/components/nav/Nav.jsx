@@ -17,12 +17,19 @@ function Nav() {
     return (
 
         <nav>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to="/">    <a onClick={() => setactiveNav('#')} className={activeNav === '#' ? 'active' : ''}><SiHomeadvisor /></a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/about'>  <a onClick={() => setactiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaUserGraduate /> </a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/experience'> <a onClick={() => setactiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''} ><BsBookHalf /></a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/services'> <a onClick={() => setactiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} ><FcServices /></a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/portfolio'> <a onClick={() => setactiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} ><BsGithub /></a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/testimonials'> <a onClick={() => setactiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} ><GiThreeFriends /></a></Link>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link to='/contact'> <a onClick={() => setactiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a></Link>
         </nav>
     )

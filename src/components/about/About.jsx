@@ -46,7 +46,7 @@ const About = () => {
                     </div>
                     <h1>An Illusion</h1>
                     <p>"Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation." </p>
-                    <Link to='/experience'> <a className='btn btn-primary'>Learn More</a></Link>
+                    <Link to='/experience'> <button className='btn btn-primary'>Learn More</button></Link>
                 </div>
 
 
