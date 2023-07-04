@@ -23,23 +23,27 @@ const data = [
         avatar: AVTR1,
         name: 'Kumar Chaudhary',
         position: 'Software Engineer',
-        review: ` A dedicated BCA student with expertise front- end development, PHP Laravel framework, Laravel API,
-        and React JS, seeking opportunities to utilize my skills
-        and knowledge in the creation and deployment
-        cutting - edge websites.  A dedicated BCA student with expertise front- end development, PHP Laravel framework, Laravel API,
-        and React JS, seeking opportunities to utilize my skills
-        and knowledge in the creation and deployment
-        cutting - edge websites.  A dedicated BCA student with expertise front- end development, PHP Laravel framework, Laravel API,
-        and React JS, seeking opportunities to utilize my skills
-        and knowledge in the creation and deployment
-        cutting - edge websites.
+        review: `
+                    Hi, I am a software engineer consisting a handheld expreience in Backend
+            Web Developement, API Engineer, App Development. With a strong foundation in web development
+            and a focus on Django frameworks and Laravel framework, I am eager to apply my skills
+            and contribute to the success of your organization so feel free to hire me. You Can Download CV if you wanted.Also, I am passionate about
+            creating efficient and scalable backend solutions, and I am well-equipped to
+            handle the challenges of developing robust web applications and building
+            powerful APIs.
+
           `
     },
     {
         avatar: AVTR2,
         name: 'Roshan Karki',
         position: 'Backend Developer',
-        review: 'lorem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur'
+        review: `
+                A dedicated BCA student with expertise and highly enthusiast in backend consisting of self taught experience in PHP Laravel framework, Laravel API,
+                and React JS, Node Js seeking opportunities to utilize my skills
+                and knowledge in the creation and deployment
+                cutting - edge websites. Besides I've developed a courier management system, Gym Management System additionally with being hosted.
+        `
     }
 
 ]

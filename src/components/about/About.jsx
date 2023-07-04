@@ -4,6 +4,7 @@ import ME from '../../assets/cooMe-about.jpg'
 import { RiFileWordFill } from 'react-icons/ri'
 import { FaUserInjured } from 'react-icons/fa'
 import { GoProject } from 'react-icons/go'
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
@@ -45,8 +46,7 @@ const About = () => {
                     </div>
                     <h1>An Illusion</h1>
                     <p>"Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation." </p>
-
-                    <a href="" className='btn btn-primary'>Learn More</a>
+                    <Link to='/experience'> <a className='btn btn-primary'>Learn More</a></Link>
                 </div>
 
 
