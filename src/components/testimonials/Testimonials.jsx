@@ -20,6 +20,20 @@ import 'swiper/css/navigation';
 
 const data = [
     {
+        avatar: AVTR2,
+        name: 'Roshan Karki',
+        position: 'Backend Developer',
+        review: `
+        I had the pleasure of working with Kumar Chaudhary, and I can confidently say that he is an exceptional backend developer. Kumar is a dedicated and enthusiastic professional with expertise in Django, Python, PHP Laravel framework, Laravel API, React JS and so on.
+
+        Kumar's self-taught experience in backend development is impressive. One project that stands out is the Dairy Milk management system he developed in React JS and Laravel Api as Backend. It was well-designed, functional, and efficient.
+        
+        What sets Kumar apart is his professionalism and work ethic. He is a reliable team member who goes above and beyond to deliver results.
+        
+        I highly recommend Kumar to any organization in need of a talented backend developer. His skills, knowledge, and dedication make him an invaluable asset, and I have no doubt that he will continue to thrive in his career.
+        `
+    },
+    {
         avatar: AVTR1,
         name: 'Kumar Chaudhary',
         position: 'Software Engineer',
@@ -33,17 +47,6 @@ const data = [
             powerful APIs.
 
           `
-    },
-    {
-        avatar: AVTR2,
-        name: 'Roshan Karki',
-        position: 'Backend Developer',
-        review: `
-                A dedicated BCA student with expertise and highly enthusiast in backend consisting of self taught experience in PHP Laravel framework, Laravel API,
-                and React JS, Node Js seeking opportunities to utilize my skills
-                and knowledge in the creation and deployment
-                cutting - edge websites. Besides I've developed a courier management system, Gym Management System additionally with being hosted.
-        `
     }
 
 ]
