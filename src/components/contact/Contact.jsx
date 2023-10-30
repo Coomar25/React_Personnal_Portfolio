@@ -12,14 +12,14 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_dewg8dl', 'template_483bj2w', form.current, 'VBlTHCwqx49MBIist')
+        emailjs.sendForm('service_q20rvb8', 'template_wrc1mxg', form.current, 'VBlTHCwqx49MBIist')
             .then((result) => {
                 console.log(result.text);
+                alert("Message has been sent successfully. Thank You For Contacting Me");
             })
             .catch((error) => {
                 console.log(error.text);
             });
-
         e.target.reset();
     };
 
@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
 
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name='name' placeholder='Your Full Name' required />
+                    <input type="text" name='from_name' placeholder='Your Full Name' required />
                     <input type="email" name='email' placeholder='Enter your Email Address' required />
                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Enter Your Message' required></textarea>
                     <button type='submit' className='btn btn-primary'>Submit</button>
