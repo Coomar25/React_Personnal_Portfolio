@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/Kumar_Chaudhary_March_2024.pdf'
+import CV from '../../assets/KumarChaudharyJune_LastWeek2024.pdf'
 import { Link } from 'react-router-dom'
 
 
